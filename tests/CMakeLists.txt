@@ -1,0 +1,2 @@
+add_executable(lacpptest test_main.cpp)
+target_link_libraries(lacpptest PRIVATE lacpplib)
